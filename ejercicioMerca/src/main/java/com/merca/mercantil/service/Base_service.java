@@ -1,4 +1,4 @@
-package service;
+package com.merca.mercantil.service;
 
 import javax.persistence.Entity;
 import java.util.List;

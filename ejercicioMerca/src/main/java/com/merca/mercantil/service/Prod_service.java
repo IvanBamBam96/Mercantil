@@ -1,10 +1,10 @@
-package service;
+package com.merca.mercantil.service;
 
-import entity.productos;
+import com.merca.mercantil.entity.productos;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
-import repository.Prod_repository;
+import com.merca.mercantil.repository.Prod_repository;
 
 import javax.transaction.Transactional;
 import java.util.List;

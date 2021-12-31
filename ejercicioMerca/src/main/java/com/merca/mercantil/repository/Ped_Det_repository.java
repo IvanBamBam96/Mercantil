@@ -1,6 +1,6 @@
-package repository;
+package com.merca.mercantil.repository;
 
-import entity.pedidos_detalles;
+import com.merca.mercantil.entity.pedidos_detalles;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
