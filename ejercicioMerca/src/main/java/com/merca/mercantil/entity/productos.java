@@ -14,7 +14,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Getter
 @Setter
-public class productos implements Serializable { //el serializar ealobjeto lo convierte en bytes, para los ser recuperado
+public class productos implements Serializable { //al serializar el objeto lo convierte en bytes, para los ser recuperado
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
